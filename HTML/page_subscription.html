@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription - Asphalt 9 : Legends</title>
+    <link rel="stylesheet" href="../CSS/AOL_HCI.css">
+    <link rel="icon" href="../Logo_Website/logo_asphalt.png" type="image">
+</head>
+<body>
+    <header class="fadeInDown">
+        <a href="page_home.html"><img src="../Logo_Website/logo_asphalt.png" alt="Asphalt" class="asphalt-logo"></a>
+        <nav>
+            <ul class="nav-ul">
+                <li><a href="page_home.html">Home</a></li>
+                <li><a href="page_product.html">Product</a></li>
+                <li><a href="page_news.html">News</a></li>
+                <li><a href="page_esports_event.html">Esports</a></li>
+                <li><a href='page_subscription.html' class="active">Subscription</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </header>
+    <section class="content-subscription">
+        <div id="register-page">
+            <form id="subscription-form">
+                <h1>Register Subscription</h1>
+                <input type="text" name="fullname" id="fullname" placeholder="Full Name" required>
+                <div id="name-error" class="error"></div>
+                <div class="form_row">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" name="dob" id="dob" required>
+                    <div id="dob-error" class="error"></div>
+                    <div class="gender">
+                        <label for="gender">Gender:</label>
+                        <input type="radio" name="gender" id="gender_male" value="male" required> <span id="maleText">Male</span>
+                        <input type="radio" name="gender" id="gender_female" value="female" required> <span id="femaleText">Female</span>
+                    </div>
+                    <div id="gender-error" class="error"></div>
+                    <input type="email" name="email" id="email" placeholder="Email" required>
+                    <div id="email-error" class="error"></div>
+                    <input type="tel" name="phone" id="phone" placeholder="Phone Number" required>
+                    <div class="form-group">
+                        <input type="checkbox" id="agree" name="agree" required>
+                        <label for="agree">I agree to the terms and conditions</label>
+                        <div id="agree-error" class="error"></div>
+                    </div>
+                    <input type="submit" value="Submit" id="submit" class="btn-form">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="footer fadeInUp">
+        <div class="container-footer">
+            <div class="row-footer">
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="https://www.gameloft.com/about-us">About us</a></li>
+                        <li><a href="https://www.gameloft.com/games">Our Services</a></li>
+                        <li><a href="https://www.gameloft.com/en/conditions-of-use/">Terms & Conditions</a></li>
+                        <li><a href="https://www.gameloft.com/en/privacy-notice/">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Help</h4>
+                    <ul>
+                        <li><a href="https://gameloft.helpshift.com/hc/en/">Faq</a></li>
+                        <li><a href="https://gameloft.helpshift.com/hc/en/82-home-page/section/604-banned-accounts/">Banned</a></li>
+                        <li><a href="https://gameloft.helpshift.com/hc/en/82-home-page/section/599-troubleshoot/">Trouble Shoot</a></li>
+                        <li><a href="https://gameloft.helpshift.com/hc/en/82-home-page/faq/3754-how-to-find-microsoft-store-order-id/">Billing</a></li>
+                        <li><a href="https://gameloft.helpshift.com/hc/en/82-home-page/faq/3759-my-account-is-banned-why/">Account</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow us</h4>
+                    <ul class="social-media">
+                        <li><a href="https://www.facebook.com/Asphalt9Legends/"><img src="../Logo_Website/logo_facebook.png" alt="Facebook"></a></li>
+                        <li><a href="https://x.com/asphalt"><img src="../Logo_Website/logo_twitter.png" alt="Twitter"></a></li>
+                        <li><a href="https://www.instagram.com/asphaltgames"><img src="../Logo_Website/logo_instagram.png" alt="Instagram"></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCphl7N613vv9pgds_LdvpGg"><img src="../Logo_Website/youtube-white.45ed1563.png" alt="Youtube"></a></li>
+                        <li><a href="https://www.tiktok.com/@asphalt_9official"><img src="../Logo_Website/tiktok-white.99222c28.png" alt="TikTok"></a></li>    
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Pop-up sukses -->
+    <dialog id="successDialog">
+        <p>Registration is succes!</p>
+        <button id="closeDialogBtn" class="close-button-succes">Close</button>
+    </dialog>
+    <script src="../JavaScript/AOL_HCI.js"></script>
+</body>
+</html>
