@@ -9,5 +9,5 @@ To run this project:
 git clone https://github.com/PeesTachio/Asphalt-9-Rejends---A-clone-website.git
 ```
 
-3. Open the folder on Visual Studio Code
-4. Run the project with live server extension on Visual Studio Code
+2. Open the folder on Visual Studio Code
+3. Run the project with live server extension on Visual Studio Code
